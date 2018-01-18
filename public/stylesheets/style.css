@@ -1,0 +1,78 @@
+
+
+.desc {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right : auto;
+  margin-left : auto;
+  color: #ffffff;
+  background-color: black;
+}
+
+
+
+.thumbnail {
+  background-color: #000000;
+  border: 1px solid #9C27B0;
+  text-shadow: 0px 0px 20px #baff00;
+  margin-right : auto;
+  margin-left : auto;
+  margin-top: 20px;
+
+}
+
+
+.img-rounded {
+  border-radius: 6px;
+  margin-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.h1, h1 {
+  font-size: 36px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 20px #080808;
+  color: #ffffff;
+}
+
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #000;
+  background-color: #ffa54d;
+  text-shadow: 0px 0px 20px #baff00;
+
+}
+.navbar-default .navbar-nav>li>a {
+  text-shadow: 0px 0px 20px #baff00;
+}
+
+
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-shadow: 0 0 20px black;
+}
+
+
+p {
+  margin: 0 0px;
+  margin-left: 30px;
+}
+
+
+/*//////////////// CAROUSEL/////////////////*/
+.carousel-inner {
+  padding-right: 15px;
+  padding-left: 15px;
+}
