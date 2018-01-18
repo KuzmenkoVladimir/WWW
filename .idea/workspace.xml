@@ -112,11 +112,6 @@
               <item name="Vladimir" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vladimir" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="Vladimir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vladimir" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="node_modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -264,7 +259,7 @@
       <workItem from="1516184196428" duration="2166000" />
       <workItem from="1516195459388" duration="8479000" />
       <workItem from="1516210295307" duration="634000" />
-      <workItem from="1516218367383" duration="1799000" />
+      <workItem from="1516218367383" duration="2008000" />
     </task>
     <task id="LOCAL-00001" summary="сайт">
       <created>1516248321808</created>
@@ -277,7 +272,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82647000" />
+    <option name="totallyTimeSpent" value="82856000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
