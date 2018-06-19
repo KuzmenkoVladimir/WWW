@@ -1,0 +1,10 @@
+/*//////////////// CAROUSEL/////////////////*/
+.carousel-inner {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footernav > ul > li {
+    width: 40%;
+    float: left;
+}
