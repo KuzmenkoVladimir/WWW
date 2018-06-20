@@ -1,6 +1,6 @@
 var mongoose = require('mongoose') 
 mongoose.connect('mongodb://localhost/learn')
-var Hero = require("./models/Hero").Hero
+var Hero = require("./models/HERO.js").Hero;
 var data = require("./data.js").data
 var async = require('async');
 

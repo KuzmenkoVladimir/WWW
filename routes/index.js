@@ -26,6 +26,22 @@ router.get('/car/:nick', checkAuth ,function(req, res, next) {
         })
 });
 
+
+/*Gallery*/
+router.get('/Gallery', function(req, res, next) {
+    res.render('gallery',{
+    });
+});
+
+/*Video*/
+router.get('/Video', function(req, res, next) {
+    res.render('Video',{
+    });
+});
+
+
+
+
 //GET auth
 router.get('/logreg', function(req, res, next){
     res.render('logreg',{error:null});

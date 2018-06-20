@@ -16,25 +16,27 @@
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="https://www.koenigsegg.com/">Koenigsegg</a>
+            <a class="navbar-brand" href="">Koenigsegg</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"></li>
-            <% if(typeof menu == 'object' && menu){
-            menu.forEach(function(item){
+            <% if(typeof navigation == 'object' && navigation){
+            navigation.forEach(function(item){
             %>
-            <li><a href=/Car/<%= item.nick %>><%= item.title %></a></li>
+            <li><a href="/car/<%= item.nick %>"><%= item.title%></a></li>
             <%
             })}
             %>
-            <li><a href="/koenigsegg-ageraCCX">CCX</a></li>
-            <li><a href="/koenigsegg-ageraOne">One</a></li>
-            <li><a href="/koenigsegg-Regera">Regera</a></li>
-            <li><a href="/koenigsegg-ageraRS">RS</a></li>
-            <li><a href="/koenigsegg-ageraS">S</a></li>
-            <li><a href="/Gallery.html">Gallery</a></li>
-            <li><a href="/koenigsegg-video">Video</a></li>
-            <li><a href="/reg">Sign in</a></li>
+            <li><a href="/Gallery">Gallery</a></li>
+            <li><a href="/Video">Video</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <%if(user){%>
+            <form action="/logout" method="post">
+                <li><button type="submit" class="btn btn-link">Выйти</button></li>
+            </form>
+            <% } else { %>
+            <li><a href="/logreg">Войти</a></li>
+            <% } %>
         </ul>
     </div>
 </nav>
